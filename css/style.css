@@ -16,11 +16,11 @@ body{
 .menu{
   text-align: center;
   height: 500px;
-  background-image: url(../images/finik-PhotoRoom.png-PhotoRoom.jpg);
+  background-image: url(/images/finik.png) ;
   background-repeat: no-repeat;
-  background-size: 260px;
+  background-size: 200px;
   background-position: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .buttons__inner{
