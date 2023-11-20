@@ -15,11 +15,11 @@ body{
 
 .menu{
   text-align: center;
-  height: 500px;
-  background-image: url(/images/finik.png) ;
+  height: 200px;
+  /* background-image: url(/images/finik.png) ;
   background-repeat: no-repeat;
   background-size: 200px;
-  background-position: center;
+  background-position: center; */
   margin-bottom: 20px;
 }
 
