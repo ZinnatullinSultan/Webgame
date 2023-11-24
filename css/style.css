@@ -15,12 +15,12 @@ body{
 
 .menu{
   text-align: center;
-  height: 200px;
-  /* background-image: url(/images/finik.png) ;
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: center; */
+  height: 400px;
   margin-bottom: 20px;
+}
+
+.cat{
+  text-align: left;
 }
 
 .buttons__inner{
