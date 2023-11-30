@@ -2,11 +2,9 @@
   font-family: ofont;
   src: url(../fonts/ofont.ru_St.Sign.ttf);
 }
-
 *{
   box-sizing: border-box;
 }
-
 body{
   margin: 0;
   padding: 0;
@@ -17,15 +15,13 @@ body{
   background-attachment: scroll;
   height: 900px;
 }
-
 .space{
   height: 550px;
 }
-
 .animals{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 .cat img {
   position: absolute;
@@ -44,12 +40,14 @@ body{
   opacity: 1;
 }
 footer{
+  min-width: 370px;
+  width: 100%;
   border: 2px solid rgb(66, 66, 235);
-  min-height: 50px;
+  min-height: 150px;
   background-color: rgb(233, 224, 224);
   font-family: ofont;
 }
-.who{
+#who{
   border-bottom: 2px solid rgb(66, 66, 235);
   font-size: 25px;
   padding: 5px;
@@ -57,5 +55,5 @@ footer{
 #text{
   display: flex;
   padding: 5px;
-  text-align: left;
+  text-align: justify;
 }
