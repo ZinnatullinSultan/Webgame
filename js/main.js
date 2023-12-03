@@ -42,8 +42,7 @@ function handleClick(event) {
     step = 8;
   }
   else if (step === 8) {
-    // document.addEventListener("click", handleClick);
-    window.location.replace("../start.html");
+    window.history.back();
   }
 }
 document.addEventListener("click", handleClick);

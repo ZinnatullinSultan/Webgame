@@ -8,7 +8,6 @@
     display: none;
   }
 }
-
 *{
   box-sizing: border-box;
 }
@@ -17,18 +16,14 @@ body{
   margin: 0;
   background-color: rgb(45, 181, 240);
 }
-
-
 .menu{
   text-align: center;
   height: 400px;
   margin-bottom: 20px;
 }
-
 .buttons__inner{
   text-align: center;
 }
-
 .buttons__inner a{
   text-decoration: none;
   display: flex;
@@ -38,7 +33,6 @@ body{
   margin-bottom: 30px;
   font-family: ofont;
 }
-
 .buttons__inner .begin{
   color: rgb(0, 26, 255);
   font-size: 40px;
