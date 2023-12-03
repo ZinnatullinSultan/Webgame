@@ -43,7 +43,7 @@ function handleClick(event) {
   }
   else if (step === 8) {
     // document.addEventListener("click", handleClick);
-    window.location.href = "../start.html";
+    window.location.replace("../start.html");
   }
 }
 document.addEventListener("click", handleClick);
