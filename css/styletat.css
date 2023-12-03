@@ -15,6 +15,13 @@ body{
   background-attachment: scroll;
   height: 900px;
 }
+
+@media (min-width: 768px) {
+  /* Стили для широких экранов (пк) */
+  body {
+    display: none;
+  }
+}
 .space{
   height: 550px;
 }

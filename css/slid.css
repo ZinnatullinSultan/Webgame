@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+.swiper {
+  width: 350px;
+  height: 500px;
+  border-radius: 5%;
+  border: 2px solid black;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+.space{
+  height: 50px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(45, 181, 240);
+}
+.ch{
+  text-align: center;
+  margin-top: 50px;
+}

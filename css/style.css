@@ -2,6 +2,12 @@
   font-family: ofont;
   src: url(../fonts/ofont.ru_St.Sign.ttf);
 }
+@media (min-width: 768px) {
+  /* Стили для широких экранов (пк) */
+  body {
+    display: none;
+  }
+}
 
 *{
   box-sizing: border-box;
